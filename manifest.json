@@ -1,0 +1,18 @@
+{
+    "Name": "Milking the Evil Residents",
+    "Author": "EbookieMeowda",
+    "Version": "1.0.0",
+    "Description": "Adds Leon. You can milk him.",
+    "UniqueID": "EbookieMeowda.MilkingTheEvilResidents",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+		{
+			"UniqueID": "selph.ExtraAnimalConfig",
+			"IsRequired": true,
+			"MinimumVersion": "1.9.0"
+        }
+    ],
+}
