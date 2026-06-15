@@ -1,7 +1,9 @@
 {
     "Name": "Milking the Evil Residents",
     "Author": "EbookieMeowda",
-    "Version": "1.0.0",
+    "Version": "1.1.1",
+    "MinimumApiVersion": "4.4",
+    "MinimumGameVersion": "1.6.15",
     "Description": "Adds Leon. You can milk him.",
     "UniqueID": "EbookieMeowda.MilkingTheEvilResidents",
     "UpdateKeys": [],
@@ -13,6 +15,12 @@
 			"UniqueID": "selph.ExtraAnimalConfig",
 			"IsRequired": true,
 			"MinimumVersion": "1.9.0"
+        },
+		{
+			"UniqueID": "mushymato.LivestockBazaar",
+			"IsRequired": true,
+			"MinimumVersion": "1.6.1"
         }
     ],
+    "UpdateKeys": [ "Nexus:47242" ]
 }
