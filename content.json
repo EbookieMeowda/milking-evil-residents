@@ -113,7 +113,7 @@
                     "DisplayName": "Leon",
                     "House": "Barn",
                     "Gender": "Male",
-                    "PurchasePrice": 4500,
+                    "PurchasePrice": -1,
                     "ShopName":"Leon",
                     "ShopDescription":"Raccoon City survivor and resident 'Pretty Boy'. Might not look like much but he's a good marksman, and extremely kind hearted.",
                     "Sound": "EbookieMeowda.LeonSounds",
