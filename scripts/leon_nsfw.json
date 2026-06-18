@@ -1,0 +1,238 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load RE2Leon",
+			"Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "EbookieMeowda.RE2Leon": {
+                    "DisplayName": "Leon",
+                    "House": "Barn",
+                    "Gender": "Male",
+                    "PurchasePrice": 4500,
+                    "ShopName":"Leon",
+                    "ShopTexture":"assets/leonshop",
+                    "ShopSourceRect":{
+                        "X":0,
+                        "Y":0,
+                        "Width":32,
+                        "Height":16
+                    },
+                    "ShopDescription":"Raccoon City survivor and resident 'Pretty Boy'. Might not look like much but he's a good marksman, and extremely kind hearted.",
+                    "AlternatePurchaseTypes":[
+                       {
+                            "Condition":null,
+                            "AnimalIds":[
+                                "EbookieMeowda.RE2Leon",
+                                "EbookieMeowda.RE4Leon",
+                                "EbookieMeowda.RE9Leon"
+                            ]
+                        }
+                    ],
+                    "Sound": "EbookieMeowda.LeonSounds",
+                    "Texture": "EbookieMeowda/re2leon", 
+                    "Skins": [
+						{
+							"id": "RE2",
+							"Weight": 1,
+							"Texture": "EbookieMeowda/re2leon",
+                            
+						},
+                     ],
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 32,
+                    "DaysToMature": 1,
+                    "RequiredBuilding": "Barn", 
+                    "ProduceItemIDs": [
+                        {
+                            "Id": "Default",
+                            "Condition": true,
+                            "MinimumFriendship": 0,
+                            "ItemId": "EbookieMeowda.LeonMilk",
+                        }
+                    ],
+					"DeluxeProduceItemIds": [
+                        {
+                            "Id": "Jacket",
+                            "Condition": true,
+                            "MinimumFriendship": 0,
+                            "ItemId": "EbookieMeowda.LeonJacket",
+                        },
+                        {
+                            "Id": "LeonBigMilk",
+                            "Condition": true,
+                            "ItemId": "EbookieMeowda.LeonBigMilk",
+                            "MinimumFriendship": 0,
+                        }
+					],
+					"DeluxeProduceMinimumFriendship": 750,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "ProduceWhenMature": true,
+                    "DaysToProduce": 1,
+                }
+            },
+        },
+        {
+            "LogName": "Load RE4Leon",
+			"Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "EbookieMeowda.RE4Leon": {
+                    "DisplayName": "Leon",
+                    "House": "Barn",
+                    "Gender": "Male",
+                    "PurchasePrice": -1,
+                    "ShopName":"Leon",
+                    "ShopDescription":"Raccoon City survivor and resident 'Pretty Boy'. Might not look like much but he's a good marksman, and extremely kind hearted.",
+                    "Sound": "EbookieMeowda.LeonSounds",
+                    "Texture": "EbookieMeowda/re4leon", 
+                    "Skins": [
+                        {
+							"id": "RE4",
+							"Weight": 1,
+							"Texture": "EbookieMeowda/re4leon",
+						},
+                     ],
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 32
+                    },
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 32,
+                    "DaysToMature": 1,
+                    "RequiredBuilding": "Barn", 
+                    "ProduceItemIDs": [
+                        {
+                            "Id": "Default",
+                            "Condition": true,
+                            "MinimumFriendship": 0,
+                            "ItemId": "EbookieMeowda.LeonMilk",
+                        }
+                    ],
+					"DeluxeProduceItemIds": [
+                        {
+                            "Id": "Jacket",
+                            "Condition": true,
+                            "MinimumFriendship": 0,
+                            "ItemId": "EbookieMeowda.LeonJacket4",
+                        },
+                        {
+                            "Id": "LeonBigMilk",
+                            "Condition": true,
+                            "ItemId": "EbookieMeowda.LeonBigMilk",
+                            "MinimumFriendship": 0,
+                        }
+					],
+					"DeluxeProduceMinimumFriendship": 750,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "ProduceWhenMature": true,
+                    "DaysToProduce": 1,
+                }
+            },
+        },
+        {
+            "LogName": "Load RE9Leon",
+			"Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "EbookieMeowda.RE9Leon": {
+                    "DisplayName": "Leon",
+                    "House": "Barn",
+                    "Gender": "Male",
+                    "PurchasePrice": -1,
+                    "ShopName":"Leon",
+                    "ShopDescription":"Raccoon City survivor and resident 'Pretty Boy'. Might not look like much but he's a good marksman, and extremely kind hearted.",
+                    "Sound": "EbookieMeowda.LeonSounds",
+                    "Texture": "EbookieMeowda/re9leon", 
+                    "Skins": [
+                        {
+							"id": "RE9",
+							"Weight": 1,
+							"Texture": "EbookieMeowda/re9leon",
+						},
+                     ],
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 32
+                    },
+                    "SpriteWidth": 16,
+                    "SpriteHeight": 32,
+                    "DaysToMature": 1,
+                    "RequiredBuilding": "Barn", 
+                    "ProduceItemIDs": [
+                        {
+                            "Id": "Default",
+                            "Condition": true,
+                            "MinimumFriendship": 0,
+                            "ItemId": "EbookieMeowda.LeonMilk",
+                        }
+                    ],
+					"DeluxeProduceItemIds": [
+                        {
+                            "Id": "Jacket",
+                            "Condition": true,
+                            "MinimumFriendship": 0,
+                            "ItemId": "EbookieMeowda.LeonJacket9",
+                        },
+                        {
+                            "Id": "LeonBigMilk",
+                            "Condition": true,
+                            "ItemId": "EbookieMeowda.LeonBigMilk",
+                            "MinimumFriendship": 0,
+                        }
+					],
+					"DeluxeProduceMinimumFriendship": 750,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Milk Pail",
+                    "ProduceWhenMature": true,
+                    "DaysToProduce": 1,
+                }
+            },
+        },
+        {
+            "LogName": "Animal Data",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["EbookieMeowda.RE2Leon", "AnimalProduceExtensionData"],
+            "Entries": {
+                "(O)EbookieMeowda.LeonJacket": {
+                    "HarvestTool": "DropOvernight",
+                }
+            },
+        },
+        {
+            "LogName": "Animal Data",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["EbookieMeowda.RE4Leon", "AnimalProduceExtensionData"],
+            "Entries": {
+                "(O)EbookieMeowda.LeonJacket4": {
+                    "HarvestTool": "DropOvernight",
+                }
+            }
+        },
+        {
+            "LogName": "Animal Data",
+            "Action": "EditData",
+            "Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
+            "TargetField": ["EbookieMeowda.RE9Leon", "AnimalProduceExtensionData"],
+            "Entries": {
+                "(O)EbookieMeowda.LeonJacket9": {
+                    "HarvestTool": "DropOvernight",
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "Changes": [
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.LeonMilk": {
+                    "Category": -6,
+                    "Description": "Leon's cream. You know what it is. We all do. Tasty.",
+                    "Displayname": "Leon's Cream",
+                    "Name": "Leon's Cream",
+                    "Price": 1000,
+                    "SpriteIndex": 0,
+                    "Texture": "assets/leonicons",
+                    "Type": "Animal Product",
+                    "Edibility": 100,
+                    "IsDrink": true,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        },
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.LeonJacket": {
+                    "Category": -17,
+                    "Description": "Leon's jacket, seems like he dropped it again. Smells like him.",
+                    "Displayname": "Leon's Jacket",
+                    "Name": "Leon's Jacket",
+                    "Price": 10000,
+                    "SpriteIndex": 4,
+                    "Texture": "assets/leonicons",
+                    "Type": "Animal Product",
+                    "Edibility": -300,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        },
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.LeonJacket4": {
+                    "Category": -17,
+                    "Description": "Leon's jacket, seems like he dropped it again. Smells like him.",
+                    "Displayname": "Leon's Jacket",
+                    "Name": "Leon's Jacket",
+                    "Price": 10000,
+                    "SpriteIndex": 5,
+                    "Texture": "assets/leonicons",
+                    "Type": "Animal Product",
+                    "Edibility": -300,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        },
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.LeonJacket9": {
+                    "Category": -17,
+                    "Description": "Leon's jacket, seems like he dropped it again. Smells like him.",
+                    "Displayname": "Leon's Jacket",
+                    "Name": "Leon's Jacket",
+                    "Price": 10000,
+                    "SpriteIndex": 6,
+                    "Texture": "assets/leonicons",
+                    "Type": "Animal Product",
+                    "Edibility": -300,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        },
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.LeonMusk": {
+                    "Category": -6,
+                    "Description": "Leon's musk. Fully processed. Smells exactly like him.",
+                    "Displayname": "Leon's Musk",
+                    "Name": "Leon's Musk",
+                    "Price": 12000,
+                    "SpriteIndex": 1,
+                    "Texture": "assets/leonicons",
+                    "Type": "Animal Product",
+                    "Edibility": 300,
+                    "IsDrink": true,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        },
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.BigLeonMilk": {
+                    "Category": -6,
+                    "Description": "Leon's cream. You know what this is. We all do. He worked VERY HARD to give us all this 'cream'.",
+                    "Displayname": "Leon's Cream (Big)",
+                    "Name": "Leon's Cream (Big)",
+                    "Price": 2000,
+                    "SpriteIndex": 2,
+                    "Texture": "assets/leonicons",
+                    "Type": "Animal Product",
+                    "Edibility": 600,
+                    "IsDrink": true,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        },
+        {
+            "LogName": "Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "EbookieMeowda.BigLeonMusk": {
+                    "Category": -6,
+                    "Description": "Leon's musk. Fully processed. Smells exactly like him. Now comes in bulk",
+                    "Displayname": "Leon's Musk (Big)",
+                    "Name": "Leon's Musk (Big)",
+                    "Price": 36000,
+                    "Texture": "assets/leonicons",
+                    "SpriteIndex": 3,
+                    "Type": "Animal Product",
+                    "Edibility": 300,
+                    "IsDrink": true,
+                    "GiftTastes":{
+                        "Love": ["Krobus", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah",  "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sebastian", "Willy"],
+                        "Hate": ["Leo", "Vincent", "Jas"],
+                    },
+                }
+            }
+        }
+    ]
+}

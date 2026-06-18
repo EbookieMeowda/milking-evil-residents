@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        
+        {
+            "LogName": "Add Cheese Press Recipe",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules"
+			],
+            "Entries": {
+                "EbookieMeowda.LeonRecipe1": {
+                    "Id": "EbookieMeowda.CreateLeonMusk",
+                    "Triggers": [
+                        {
+							"Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "EbookieMeowda.LeonMilk",
+							"RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "EbookieMeowda.LeonMusk",
+                            "Quality": 4
+                        }
+                    ],
+                    "DaysUntilReady": 1
+                },
+                "EbookieMeowda.LeonRecipe2": {
+                    "Id": "EbookieMeowda.CreateBigLeonMusk",
+                    "Triggers": [
+                        {
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "EbookieMeowda.BigLeonMilk",
+							"RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "EbookieMeowda.BigLeonMusk",
+                            "Quality": 4
+                        }
+                    ],
+                    "DaysUntilReady": 1
+                }
+            }
+        }
+    ]
+}
